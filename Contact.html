@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Contact.js" defer></script>
+    <link href="Contact.css" rel="stylesheet">
+
+    <style>
+        input {
+            justify-content: center;
+            width: 30%;
+            border: 0px;
+            margin: auto;
+
+        }
+
+        input#emailid,
+        input#commentid {
+            padding-bottom: 10%;
+        }
+
+        p {
+            width: 33%;
+            text-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+
+
+        select {
+            width: 30%;
+            text-align: center;
+        }
+
+        input#submit {
+            justify-content: center;
+            /* padding-left: 40%;
+            padding-right: 40%; */
+            width: 25%;
+            height: 30px;
+            margin-left: 40%;
+            margin-right: 40%;
+            margin-top: 5%;
+        }
+
+        #contain {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* #commentid {
+            max-width: 400px;
+            max-height: 30px;
+            justify-content: center;
+            margin: 20px
+        } */
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<header>
+    <div id="header3">
+        <div id="header2">
+            <div id="header">
+                <p id="title">Spencer's Music</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body id="cycle">
+
+    <section id="contain">
+        <form id="form" onsubmit="myFunction()">
+
+            <script>
+                function myFunction() {
+                    alert('Thank you for submitting!\nI will get back to you, and we can discuss pricing of the song you want.');
+                }
+            </script>
+            <p id="p1">Put Email Here</p>
+
+
+            <!-- Put combobox here to say which song you want to buy -->
+            <!-- So whats sent is email, song to be bought, additional comments -->
+            <p id="p3">What song do you want to purchase?</p>
+
+
+            <p id="p2">Additional Details</p>
+
+            <input type="email" id="emailid" placeholder="Put email here (Ie. gosselins@student.douglascollege.ca)"
+                name="customerEmail" autofocus name="cEmail" required>
+
+            <select name="Song" multiple size="6">
+                <option value="DesertLike">DesertLike</option>
+                <option value="CoolStuff">Cool Stuff</option>
+                <option value="MetalSystem">Metal System</option>
+                <option value="Kill">Kill</option>
+                <option value="SongS">Song S</option>
+                <option value="MultiLayer">MultiLayer</option>
+            </select>
+
+            <input type="text" id="commentid" placeholder="Write Comment Here" name="customerComment" autofocus
+                name="cComment">
+
+            <input type="submit" id="submit">
+        </form>
+
+    </section>
+
+
+    <footer id="f">
+        <section id="footer">
+            <section id="sect4">
+                <p id="p4">Sources</p>
+
+                <a href="sources.html" id="a"><img src="primarysource3.png" alt="Sources"></a>
+                <br>
+                <a href="main.html" id="a">Main Page</a>
+                <br>
+                <a href="Music.html" id="a">Music</a>
+                <br>
+                <a href="Contact.html" id="a">Contact Me</a>
+                <br>
+                <a href="AboutMe.html" id="a">About Me</a>
+            </section>
+
+
+        </section>
+    </footer>
+
+</body>
+
+
+
+
+</html>

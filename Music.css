@@ -1,0 +1,172 @@
+html {
+    /* display: block; */
+    text-align: left;
+
+    /* color: rgb(255, 255, 255); */
+}
+
+body {
+    /* background-color: rgb(185, 187, 255); */
+    color: black;
+    /* float: left; */
+    /* flex-wrap: wrap; */
+    background-color: rgb(10, 10, 210);
+}
+
+div#header {
+    border: 2px black solid;
+    justify-content: center;
+    padding-bottom: 3px;
+    width: 80%;
+    margin: auto;
+}
+
+div#header2 {
+    border: 2px black solid;
+    justify-content: center;
+    padding: 3px;
+    width: 80%;
+    margin: auto;
+}
+
+div#header3 {
+    border: 2px black solid;
+    justify-content: center;
+    padding: 3px;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    /* background-color: rgb(10, 10, 210); */
+    /* color: white; */
+    display: block;
+    padding: 5px;
+    padding-bottom: 8px;
+}
+
+
+section {
+    background-color: rgb(152, 155, 255);
+    display: inline-flex;
+    width: 49%;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    height: 4lh;
+    /* color: white; */
+}
+
+audio {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    max-width: 200px;
+}
+
+#p1,
+#p2,
+#p3,
+#p5,
+#p6 {
+    padding-left: 20px;
+    /* justify-content: center; */
+    margin: auto;
+}
+
+#p4 {
+    padding-left: 10px;
+    margin: auto;
+}
+
+section#contain {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(93, 98, 255);
+}
+
+#a {
+    display: flex;
+}
+
+section#footer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 275px;
+    background-color: rgb(88, 94, 253);
+    border: 2px solid black;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+#sect1 {
+    background-color: rgb(235, 223, 7);
+}
+
+#sect2 {
+    background-color: rgb(167, 254, 255);
+}
+
+#sect3 {
+    background-color: rgb(41, 41, 37);
+    color: white;
+}
+
+#sect4 {
+    background-color: rgb(78, 0, 0);
+    color: white;
+}
+
+#sect5 {
+    background-color: rgb(255, 0, 0);
+}
+
+#sect6 {
+    background-color: rgb(77, 117, 81);
+}
+
+#sect7 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border: 0px;
+}
+
+
+section>img {
+    max-width: 150px;
+    max-height: 150px;
+    justify-content: center;
+    margin: 4px;
+}
+
+a>img {
+    max-width: 150px;
+    max-height: 150px;
+    justify-content: center;
+    margin: 4px;
+}
+
+p#title {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a {
+    padding: 5px;
+}
